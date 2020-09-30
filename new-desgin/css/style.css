@@ -1,0 +1,208 @@
+/*Gloabl class Start*/
+body{
+	background:#f6f8fa;
+}
+
+/*Gloabl class End*/
+
+/*Fillter Section Start*/
+
+.fillter-card{
+	border:1px solid transparent;
+	border-radius: 3%; 
+}
+.e-filters{
+	font-size: 13px;
+	color: #635e5ea6;
+}
+
+.fillter-card h3{
+	font-size:20px; 
+	font-weight: normal;
+}
+
+/*Color fillter*/
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+.color{
+    width:6px;
+    position: absolute;
+    height: 6px;
+    top: 8px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+.baby-pink{
+	  background: #f4c2c2;
+}
+.beiga{
+	background: #fce903;
+}
+.green{
+	background: #49b675;
+}
+.black{
+	background: #000;
+}
+.brown{
+	background: #a37063;
+}
+.blue{
+	background: #0e4bef;
+}
+.indigo	{
+	background: #94f330;
+}
+.bottle-green{
+	background: #c90cb5;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+/*price slide	r*/
+.range-slider .rangeValues {
+	 display: block;
+}
+ input[type=range] {
+	 -webkit-appearance: none;
+	 border: 1px solid white;
+	 width: 276px;
+	 position: absolute;
+	 left: 5px;
+	 background-color: #1ABC9C;
+}
+ input[type=range]::-webkit-slider-runnable-track {
+	 width: 300px;
+	 height: 5px;
+	 background: #ddd;
+	 border: none;
+	 border-radius: 3px;
+}
+ input[type=range]::-webkit-slider-thumb {
+	 -webkit-appearance: none;
+	 top:-2px;
+	 height: 16px;
+	 width: 16px;
+	 border-radius: 50%;
+	 background: #aba84f;
+	 border:3px solid #fff;
+	 box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
+	 margin-top: -4px;
+	 cursor: pointer;
+	 position: relative;
+	 z-index: 1;
+}
+ input[type=range]:focus {
+	 outline: none;
+}
+ input[type=range]:focus::-webkit-slider-runnable-track {
+	 background: #ccc;
+}
+ input[type=range]::-moz-range-track {
+	 width: 300px;
+	 height: 5px;
+	 background: #ddd;
+	 border: none;
+	 border-radius: 3px;
+}
+ input[type=range]::-moz-range-thumb {
+ 	top:-2px;
+	 height: 16px;
+	 width: 16px;
+	 border-radius: 50%;
+	 background: #aba84f;
+	 border:3px solid #fff;
+	 box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
+}
+/*hide the outline behind the border*/
+ input[type=range]:-moz-focusring {
+	 outline: 1px solid white;
+	 outline-offset: -1px;
+}
+ input[type=range]::-ms-track {
+	 width: 300px;
+	 height: 5px;
+	/*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
+	 background: transparent;
+	/*leave room for the larger thumb to overflow with a transparent border */
+	 border-color: transparent;
+	 border-width: 6px 0;
+	/*remove default tick marks*/
+	 color: transparent;
+	 z-index: -4;
+}
+ input[type=range]::-ms-fill-lower {
+	 background: #777;
+	 border-radius: 10px;
+}
+ input[type=range]::-ms-fill-upper {
+	 background: #ddd;
+	 border-radius: 10px;
+}
+ input[type=range]::-ms-thumb {
+ 	top:-2px;
+	 height: 16px;
+	 width: 16px;
+	 border-radius: 50%;
+	 background: #aba84f;
+	 border:3px solid #fff;
+	 box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
+}
+ input[type=range]:focus::-ms-fill-lower {
+	 background: #888;
+}
+ input[type=range]:focus::-ms-fill-upper {
+	 background: #ccc;
+}
+ 
+
+/*product section*/
+.ctm-btn{
+	border-radius:0;
+}
+.ec-pro-img {
+    display: flex;
+    justify-content: center;
+}
+.ctm-card img{
+    width: 144px;
+    height: 144px;
+    margin: auto;
+    }
+ .ctm-card p{
+ 	font-size: 14px;
+ 	color: #635e5ee3
+ } 
+ .ctm-card h5{
+ 	font-size: 16px;
+ 	color: #635e5ee3
+ } 
+.disc{
+	background: #d4c009c7;
+	color: #fff;
+    top: 12px;
+    position: absolute;
+    font-size: 13px;
+    padding: 2px 0.55rem 2px 0.22rem;
+    border: 1px solid transparent;
+    border-top-right-radius:  30% !important;
+    border-bottom-right-radius: 30%  !important;
+}
+.fav-add .fa-heart:hover{
+	transition: all 100ms ease;
+	color: red;
+}
+
+
+.categorya{
+    display:none;
+}
